@@ -1,4 +1,3 @@
-// CategoriesData.js
 const CategoriesData = [
   {
     id: 1,
@@ -11,7 +10,9 @@ const CategoriesData = [
         subcategories: [
           { id: 1011, name: 'Smartphones' },
           { id: 1012, name: 'Feature Phones' },
-          { id: 1013, name: 'Phone Accessories' }
+          { id: 1013, name: 'Phone Accessories' },
+          { id: 1014, name: 'Chargers' },
+          { id: 1015, name: 'Cases & Covers' }
         ]
       },
       {
@@ -20,7 +21,8 @@ const CategoriesData = [
         subcategories: [
           { id: 1021, name: 'Ultrabooks' },
           { id: 1022, name: 'Gaming Laptops' },
-          { id: 1023, name: 'Laptop Accessories' }
+          { id: 1023, name: 'Laptop Accessories' },
+          { id: 1024, name: '2-in-1 Laptops' }
         ]
       },
       {
@@ -29,7 +31,8 @@ const CategoriesData = [
         subcategories: [
           { id: 1031, name: 'Headphones' },
           { id: 1032, name: 'Speakers' },
-          { id: 1033, name: 'Home Audio Systems' }
+          { id: 1033, name: 'Home Audio Systems' },
+          { id: 1034, name: 'Soundbars' }
         ]
       },
       {
@@ -46,10 +49,13 @@ const CategoriesData = [
             ]
           },
           { id: 1042, name: 'Smart Glasses (VR)' },
-          { id: 1043, name: 'Smart Bands' }
+          { id: 1043, name: 'Smart Bands' },
+          { id: 1044, name: 'Virtual Reality Headsets' }
         ]
       },
-      { id: 105, name: 'Tablets' }
+      { id: 105, name: 'Tablets' },
+      { id: 106, name: 'Cameras' },
+      { id: 107, name: 'Drones' }
     ]
   },
   {
@@ -79,7 +85,10 @@ const CategoriesData = [
           { id: 2053, name: "Triple Door" },
           { id: 2054, name: "Side by Side" }
         ]
-      }
+      },
+      { id: 206, name: 'Microwaves' },
+      { id: 207, name: 'Dishwashers' },
+      { id: 208, name: 'Vacuum Cleaners' }
     ]
   },
   {
@@ -94,7 +103,8 @@ const CategoriesData = [
           { id: 3011, name: "Sports Shoes" },
           { id: 3012, name: "Casual Shoes" },
           { id: 3013, name: "Formal Shoes" },
-          { id: 3014, name: "Flip-Flops" }
+          { id: 3014, name: "Flip-Flops" },
+          { id: 3015, name: "Sandals" }
         ]
       },
       {
@@ -103,7 +113,9 @@ const CategoriesData = [
         subcategories: [
           { id: 3021, name: 'T-Shirts' },
           { id: 3022, name: 'Jeans' },
-          { id: 3023, name: 'Jackets' }
+          { id: 3023, name: 'Jackets' },
+          { id: 3024, name: 'Shirts' },
+          { id: 3025, name: 'Trousers' }
         ]
       },
       {
@@ -112,7 +124,8 @@ const CategoriesData = [
         subcategories: [
           { id: 3031, name: 'Sweaters' },
           { id: 3032, name: 'Hoodies' },
-          { id: 3033, name: 'Thermals' }
+          { id: 3033, name: 'Thermals' },
+          { id: 3034, name: 'Coats & Jackets' }
         ]
       },
       {
@@ -122,7 +135,8 @@ const CategoriesData = [
           { id: 3041, name: "Deodorants" },
           { id: 3042, name: "Perfumes" },
           { id: 3043, name: "Beard Care" },
-          { id: 3044, name: "Shaving & Aftershave" }
+          { id: 3044, name: "Shaving & Aftershave" },
+          { id: 3045, name: "Hair Care" }
         ]
       }
     ]
@@ -138,7 +152,9 @@ const CategoriesData = [
         subcategories: [
           { id: 4011, name: "Sarees" },
           { id: 4012, name: "Kurtas & Kurtis" },
-          { id: 4013, name: "Lehenga Choli" }
+          { id: 4013, name: "Lehenga Choli" },
+          { id: 4014, name: "Salwar Suits" },
+          { id: 4015, name: "Ethnic Gowns" }
         ]
       },
       {
@@ -147,7 +163,9 @@ const CategoriesData = [
         subcategories: [
           { id: 4021, name: 'Dresses' },
           { id: 4022, name: 'Tops' },
-          { id: 4023, name: 'Jeans' }
+          { id: 4023, name: 'Jeans' },
+          { id: 4024, name: 'Skirts' },
+          { id: 4025, name: 'Jumpsuits' }
         ]
       },
       {
@@ -156,7 +174,9 @@ const CategoriesData = [
         subcategories: [
           { id: 4031, name: 'Heels' },
           { id: 4032, name: 'Flats' },
-          { id: 4033, name: 'Sneakers' }
+          { id: 4033, name: 'Sneakers' },
+          { id: 4034, name: 'Sandals' },
+          { id: 4035, name: 'Boots' }
         ]
       },
       {
@@ -165,7 +185,8 @@ const CategoriesData = [
         subcategories: [
           { id: 4041, name: "Skincare" },
           { id: 4042, name: "Makeup" },
-          { id: 4043, name: "Haircare" }
+          { id: 4043, name: "Haircare" },
+          { id: 4044, name: "Fragrances" }
         ]
       }
     ]
@@ -181,7 +202,9 @@ const CategoriesData = [
         subcategories: [
           { id: 5011, name: 'Cookware' },
           { id: 5012, name: 'Dinner Sets' },
-          { id: 5013, name: 'Storage Containers' }
+          { id: 5013, name: 'Storage Containers' },
+          { id: 5014, name: 'Kitchen Tools' },
+          { id: 5015, name: 'Bakeware' }
         ]
       },
       {

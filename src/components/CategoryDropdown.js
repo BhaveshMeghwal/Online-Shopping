@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./CategoryDropdown.css";
-import { CategoriesData } from './CategoriesData';
+import { CategoriesData } from './Data';
 
 const CategoryDropdown = () => {
   const [activeCategory, setActiveCategory] = useState(null);
