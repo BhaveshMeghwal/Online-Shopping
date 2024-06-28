@@ -2,7 +2,7 @@
 
 The goal of this project is to create a home page for a shopping website. The main features include an expandable list of product categories and subcategories, with a clean and intuitive design, using a JSON structure to store all categories and subcategories.
 
-![Screenshot](src\assets\Screenshot.png)
+![Screenshot](https://github.com/BhaveshMeghwal/Online-Shopping/assets/99948098/d63785dd-a3c4-43b1-a93d-9fc50ddf7171)
 
 ## Features
 
