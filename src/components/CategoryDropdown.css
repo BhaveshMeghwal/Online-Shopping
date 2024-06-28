@@ -1,11 +1,9 @@
-/* Categories List Container */
 .categories-list {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-/* Main Category Styling */
 .category {
     position: relative;
     cursor: pointer;
